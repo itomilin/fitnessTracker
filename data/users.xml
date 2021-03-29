@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <users>
     <user>
-        <lastSession>20.666666666666668</lastSession>
+        <lastSession>1.7777777777777777</lastSession>
         <login>zhuhar32</login>
         <name>Zhunar</name>
         <surname>Surnami</surname>
-        <totalCalories>25.555555555555557</totalCalories>
+        <totalCalories>135.19444444444446</totalCalories>
     </user>
     <user>
         <lastSession>113.97222222222223</lastSession>
@@ -13,5 +13,19 @@
         <name>Adel</name>
         <surname>AbuHasira Muntaser</surname>
         <totalCalories>113.97222222222223</totalCalories>
+    </user>
+    <user>
+        <lastSession>1.2222222222222223</lastSession>
+        <login>test32</login>
+        <name>test</name>
+        <surname>test</surname>
+        <totalCalories>1.2222222222222223</totalCalories>
+    </user>
+    <user>
+        <lastSession>0.0</lastSession>
+        <login>test10</login>
+        <name>abc</name>
+        <surname>fgh</surname>
+        <totalCalories>0.0</totalCalories>
     </user>
 </users>

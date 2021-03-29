@@ -10,7 +10,7 @@ public class Training {
 
     // Calories per hour
     private final EnumMap<TypeOfTraining, Double> caloriesTraining = new
-            EnumMap<TypeOfTraining, Double>(TypeOfTraining.class) {
+            EnumMap<>(TypeOfTraining.class) {
                 {
                     put(TypeOfTraining.JUMP_ROPE, 800.0);
                 }
@@ -88,12 +88,13 @@ public class Training {
 
     private void startTimer() {
         System.out.println("!!Start timer!!");
-        this.stopwatch = Stopwatch.createStarted();
+        stopwatch = Stopwatch.createStarted();
     }
 
     private void stopTimer() {
         System.out.println("!!End timer!!");
-        this.elapsedTime = this.stopwatch.elapsed();
+        elapsedTime = this.stopwatch.elapsed();
+        System.out.println("Elapsed time: " + elapsedTime.toSeconds() + " sec");
     }
 
     /**
@@ -105,6 +106,6 @@ public class Training {
         Double k = caloriesTraining.get(selectedTraining);
         long t = elapsedTime.getSeconds();
         short secondsInHour = 3600;
-        wastedCalories = k * ((t * 1.0) / secondsInHour);
+        wastedCalories = (k * t) / secondsInHour;
     }
 }

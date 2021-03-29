@@ -15,7 +15,7 @@ public class Serializer {
 
     public Serializer(String profilesFile) throws JAXBException {
         this.profilesFile = profilesFile;
-        this.context = JAXBContext.newInstance(Users.class);
+        context = JAXBContext.newInstance(Users.class);
     }
 
     public void serialize(Users users) throws JAXBException {
