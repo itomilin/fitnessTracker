@@ -15,17 +15,24 @@
         <totalCalories>113.97222222222223</totalCalories>
     </user>
     <user>
-        <lastSession>1.2222222222222223</lastSession>
+        <lastSession>3.0555555555555554</lastSession>
         <login>test32</login>
         <name>test</name>
         <surname>test</surname>
-        <totalCalories>1.2222222222222223</totalCalories>
+        <totalCalories>4.277777777777778</totalCalories>
     </user>
     <user>
         <lastSession>0.0</lastSession>
         <login>test10</login>
         <name>abc</name>
         <surname>fgh</surname>
+        <totalCalories>0.0</totalCalories>
+    </user>
+    <user>
+        <lastSession>0.0</lastSession>
+        <login>newuser</login>
+        <name>name</name>
+        <surname>surname</surname>
         <totalCalories>0.0</totalCalories>
     </user>
 </users>
